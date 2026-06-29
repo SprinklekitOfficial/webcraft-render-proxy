@@ -2,7 +2,7 @@ const { EaglerProxy } = require('eaglerproxy');
 
 const proxy = new EaglerProxy({
     port: process.env.PORT || 8080,
-    target_host: '://wynncraft.com', // Замените на IP вашего любимого сервера
+    target_host: '://wynncraft.com',
     target_port: 25565,
     motd: 'WebCraft Browser Proxy!'
 });
